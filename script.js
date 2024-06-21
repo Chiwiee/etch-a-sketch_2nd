@@ -48,4 +48,6 @@ gridButton.addEventListener("click", function () {
   }
   const inputValue = getInput();
   console.log(inputValue);
+
+  for (let i = 1; i <= inputValue * inputValue; i++) {}
 });
