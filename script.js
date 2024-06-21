@@ -20,6 +20,7 @@ body.appendChild(mainContainer);
 mainContainer.appendChild(buttonDiv);
 buttonDiv.appendChild(button);
 mainContainer.appendChild(gridContainer);
+mainContainer.appendChild(customGridCon);
 
 for (let i = 1; i <= 16 * 16; i++) {
   const gridContainer = document.querySelector(".grid-container");
