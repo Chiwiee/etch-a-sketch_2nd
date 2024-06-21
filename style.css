@@ -49,6 +49,6 @@ body {
 }
 .custom-grid {
   aspect-ratio: 1 / 1;
-  flex: 1 1 1zpx;
+  flex: 1 1 1%;
   border: 1px solid rgba(44, 44, 44, 0.452);
 }
