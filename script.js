@@ -9,3 +9,4 @@ buttonDiv.classList = "button-div";
 // textContent
 // appendChild
 body.appendChild(main);
+mainContainer.appendChild(buttonDiv);
