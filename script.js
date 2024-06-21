@@ -10,3 +10,5 @@ buttonDiv.classList = "button-div";
 // appendChild
 body.appendChild(main);
 mainContainer.appendChild(buttonDiv);
+
+console.log(mainContainer);
