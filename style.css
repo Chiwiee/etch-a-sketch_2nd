@@ -30,6 +30,8 @@ body {
 .grid-container {
   display: flex;
   flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
 }
 .grid {
   aspect-ratio: 1 / 1;
