@@ -36,4 +36,8 @@ grid.forEach((grid) => {
 });
 
 const gridButton = document.querySelector(".button");
-gridButton.addEventListener("click", function () {});
+gridButton.addEventListener("click", function () {
+  function getInput() {
+    const userInput = prompt("Please enter a number for Grid Size");
+  }
+});
