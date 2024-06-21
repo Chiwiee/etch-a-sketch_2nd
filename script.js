@@ -17,5 +17,6 @@ button.textContent = "EDIT THE GRID SIZE";
 body.appendChild(mainContainer);
 mainContainer.appendChild(buttonDiv);
 buttonDiv.appendChild(button);
+mainContainer.appendChild(mainGrid);
 
 console.log(mainContainer);
