@@ -46,4 +46,5 @@ gridButton.addEventListener("click", function () {
       return "ERROR";
     }
   }
+  const inputValue = getInput();
 });
