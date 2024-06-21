@@ -49,6 +49,7 @@ gridButton.addEventListener("click", function () {
     const maximum = 100;
     if (userInput <= maximum) {
       return userInput;
+    } else if (userInput <= 32) {
     } else {
       return "ERROR";
     }
