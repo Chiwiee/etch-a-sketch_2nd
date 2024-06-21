@@ -15,7 +15,6 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  border: 1px solid black;
 }
 .button-div {
   display: flex;
