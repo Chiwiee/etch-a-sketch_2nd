@@ -9,7 +9,7 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-.main-contaienr {
+.main-container {
   display: flex;
   border: 1px solid black;
 }
