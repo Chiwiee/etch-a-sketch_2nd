@@ -5,6 +5,7 @@ const mainContainer = document.createElement("div");
 const buttonDiv = document.createElement("div");
 const button = document.createElement("button");
 const gridContainer = document.createElement("div");
+const customGridCon = document.createElement("div");
 
 // classList
 mainContainer.classList = "main-container";
@@ -37,6 +38,7 @@ grid.forEach((grid) => {
 
 const gridButton = document.querySelector(".button");
 gridButton.addEventListener("click", function () {
+  mainContainer.removeChild(gridContainer);
   function getInput() {
     const userInput = prompt("Please enter a number for Grid Size");
     const maximum = 100;
