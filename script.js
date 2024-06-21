@@ -36,3 +36,4 @@ grid.forEach((grid) => {
 });
 
 const gridButton = document.querySelector(".button");
+gridButton.addEventListener("click", function () {});
