@@ -8,7 +8,7 @@ mainContainer.classList = "main-container";
 buttonDiv.classList = "button-div";
 // textContent
 // appendChild
-body.appendChild(main);
+body.appendChild(mainContainer);
 mainContainer.appendChild(buttonDiv);
 
 console.log(mainContainer);
