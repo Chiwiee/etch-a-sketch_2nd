@@ -54,6 +54,7 @@ gridButton.addEventListener("click", function () {
     } else if (userInput == 64) {
       return userInput;
     } else {
+      alert("Only: 32x32, 64x64, 100x100");
       return "ERROR";
     }
   }
