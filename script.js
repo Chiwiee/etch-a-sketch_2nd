@@ -44,23 +44,6 @@ gridButton.addEventListener("click", function () {
   customGridCon.classList = "cgrid-container";
   mainContainer.appendChild(customGridCon);
 
-  function getInput() {
-    const userInput = prompt("Pick Between: 32x32, 64x64, 100x100");
-    const maximum = 100;
-    if (userInput == maximum) {
-      return userInput;
-    } else if (userInput == 32) {
-      return userInput;
-    } else if (userInput == 64) {
-      return userInput;
-    } else {
-      alert("Only: 32x32, 64x64, 100x100");
-      return "ERROR";
-    }
-  }
-  const inputValue = getInput();
-  console.log(inputValue);
-
   for (let i = 1; i <= inputValue * inputValue; i++) {
     const cgridContainer = document.querySelector(".cgrid-container");
     const grid = document.createElement("div");
