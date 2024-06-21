@@ -29,3 +29,4 @@ for (let i = 1; i <= 16 * 16; i++) {
 console.log(mainContainer);
 
 const grid = document.querySelectorAll(".grid");
+grid.forEach((grid) => {});
