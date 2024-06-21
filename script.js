@@ -30,5 +30,7 @@ console.log(mainContainer);
 
 const grid = document.querySelectorAll(".grid");
 grid.forEach((grid) => {
-  grid.addEventListener('mouseout' (e) => {})
+  grid.addEventListener('mouseout' (e) => {
+    e.target.style.background = "black"
+  })
 });
