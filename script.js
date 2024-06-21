@@ -4,6 +4,8 @@ const body = document.querySelector("body");
 const mainContainer = document.createElement("div");
 const buttonDiv = document.createElement("div");
 const button = document.createElement("button");
+const mainGrid = document.createElement("div");
+
 // classList
 mainContainer.classList = "main-container";
 buttonDiv.classList = "button-div";
