@@ -34,3 +34,5 @@ grid.forEach((grid) => {
     e.target.style.background = "black";
   });
 });
+
+const gridButton = document.querySelector(".button");
