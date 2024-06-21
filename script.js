@@ -56,7 +56,7 @@ gridButton.addEventListener("click", function () {
   for (let i = 1; i <= inputValue * inputValue; i++) {
     const cgridContainer = document.querySelector(".cgrid-container");
     const grid = document.createElement("div");
-    grid.classList = "grid";
+    grid.classList = "cusGrid";
     cgridContainer.appendChild(grid);
   }
 });
