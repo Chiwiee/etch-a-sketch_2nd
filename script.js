@@ -25,3 +25,5 @@ for (let i = 1; i <= 16 * 16; i++) {
   grid.classList = "grid";
   gridContainer.appendChild(grid);
 }
+
+console.log(mainContainer);
