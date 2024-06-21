@@ -12,7 +12,7 @@ buttonDiv.classList = "button-div";
 button.classList = "button";
 gridContainer.classList = "grid-container";
 // textContent
-button.textContent = "EDIT THE GRID SIZE";
+button.textContent = "100x100";
 // appendChild
 body.appendChild(mainContainer);
 mainContainer.appendChild(buttonDiv);
@@ -44,7 +44,7 @@ gridButton.addEventListener("click", function () {
   customGridCon.classList = "cgrid-container";
   mainContainer.appendChild(customGridCon);
 
-  for (let i = 1; i <= inputValue * inputValue; i++) {
+  for (let i = 1; i <= 100 * 100; i++) {
     const cgridContainer = document.querySelector(".cgrid-container");
     const grid = document.createElement("div");
     grid.classList = "custom-grid";
