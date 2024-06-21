@@ -54,7 +54,7 @@ gridButton.addEventListener("click", function () {
   console.log(inputValue);
 
   for (let i = 1; i <= inputValue * inputValue; i++) {
-    const gridContainer = document.querySelector(".grid-container");
+    const cgridContainer = document.querySelector(".cgrid-container");
     const grid = document.createElement("div");
     grid.classList = "grid";
     gridContainer.appendChild(grid);
