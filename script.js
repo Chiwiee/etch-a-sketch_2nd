@@ -45,7 +45,7 @@ gridButton.addEventListener("click", function () {
   mainContainer.appendChild(customGridCon);
 
   function getInput() {
-    const userInput = prompt("Please enter a number for Grid Size");
+    const userInput = prompt("Pick Between: 32x32, 64x64, 100x100");
     const maximum = 100;
     if (userInput == maximum) {
       return userInput;
