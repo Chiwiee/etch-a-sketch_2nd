@@ -29,5 +29,5 @@ body {
 .grid {
   aspect-ratio: 1 / 1;
   flex: 1 1 50%;
-  padding: 10px;
+  border: 1px solid black;
 }
