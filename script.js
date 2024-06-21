@@ -9,6 +9,7 @@ mainContainer.classList = "main-container";
 buttonDiv.classList = "button-div";
 button.classList = "button";
 // textContent
+button.textContent = "EDIT THE GRID SIZE";
 // appendChild
 body.appendChild(mainContainer);
 mainContainer.appendChild(buttonDiv);
