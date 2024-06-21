@@ -52,6 +52,7 @@ gridButton.addEventListener("click", function () {
     } else if (userInput == 32) {
       return userInput;
     } else if (userInput == 64) {
+      return userInput;
     } else {
       return "ERROR";
     }
