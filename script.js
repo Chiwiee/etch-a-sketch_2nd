@@ -10,6 +10,7 @@ const mainGrid = document.createElement("div");
 mainContainer.classList = "main-container";
 buttonDiv.classList = "button-div";
 button.classList = "button";
+mainGrid.classList = "main-grid";
 // textContent
 button.textContent = "EDIT THE GRID SIZE";
 // appendChild
