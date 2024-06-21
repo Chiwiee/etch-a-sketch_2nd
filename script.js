@@ -47,4 +47,5 @@ gridButton.addEventListener("click", function () {
     }
   }
   const inputValue = getInput();
+  console.log(inputValue);
 });
