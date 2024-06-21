@@ -19,4 +19,4 @@ mainContainer.appendChild(buttonDiv);
 buttonDiv.appendChild(button);
 mainContainer.appendChild(mainGrid);
 
-console.log(mainContainer);
+for (let i = 1; i <= 16 * 16; i++) {}
