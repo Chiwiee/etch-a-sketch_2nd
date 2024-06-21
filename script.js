@@ -53,5 +53,6 @@ gridButton.addEventListener("click", function () {
     const gridContainer = document.querySelector(".grid-container");
     const grid = document.createElement("div");
     grid.classList = "grid";
+    gridContainer.appendChild(grid);
   }
 });
