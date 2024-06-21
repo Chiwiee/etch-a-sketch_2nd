@@ -5,14 +5,12 @@ const mainContainer = document.createElement("div");
 const buttonDiv = document.createElement("div");
 const button = document.createElement("button");
 const gridContainer = document.createElement("div");
-const customGridCon = document.createElement("div");
 
 // classList
 mainContainer.classList = "main-container";
 buttonDiv.classList = "button-div";
 button.classList = "button";
 gridContainer.classList = "grid-container";
-customGridCon.classList = "cgrid-container";
 // textContent
 button.textContent = "EDIT THE GRID SIZE";
 // appendChild
@@ -20,7 +18,6 @@ body.appendChild(mainContainer);
 mainContainer.appendChild(buttonDiv);
 buttonDiv.appendChild(button);
 mainContainer.appendChild(gridContainer);
-mainContainer.appendChild(customGridCon);
 
 for (let i = 1; i <= 16 * 16; i++) {
   const gridContainer = document.querySelector(".grid-container");
@@ -40,7 +37,13 @@ grid.forEach((grid) => {
 
 const gridButton = document.querySelector(".button");
 gridButton.addEventListener("click", function () {
+  // remove main container
   mainContainer.removeChild(gridContainer);
+  // Create new container
+  const customGridCon = document.createElement("div");
+  customGridCon.classList = "cgrid-container";
+  mainContainer.appendChild(customGridCon);
+
   function getInput() {
     const userInput = prompt("Please enter a number for Grid Size");
     const maximum = 100;
