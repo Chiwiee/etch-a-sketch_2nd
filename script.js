@@ -47,7 +47,7 @@ gridButton.addEventListener("click", function () {
   function getInput() {
     const userInput = prompt("Please enter a number for Grid Size");
     const maximum = 100;
-    if (userInput <= maximum) {
+    if (userInput == maximum) {
       return userInput;
     } else if (userInput == 32) {
       return userInput;
