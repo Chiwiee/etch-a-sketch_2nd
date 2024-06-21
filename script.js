@@ -12,6 +12,7 @@ mainContainer.classList = "main-container";
 buttonDiv.classList = "button-div";
 button.classList = "button";
 gridContainer.classList = "grid-container";
+customGridCon.classList = "cgrid-container";
 // textContent
 button.textContent = "EDIT THE GRID SIZE";
 // appendChild
