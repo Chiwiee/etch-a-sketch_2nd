@@ -62,4 +62,11 @@ gridButton.addEventListener("click", function () {
     grid.classList = "custom-grid";
     cgridContainer.appendChild(grid);
   }
+
+  const grid = document.querySelectorAll(".custom-grid");
+  grid.forEach((grid) => {
+    grid.addEventListener("mouseout", (e) => {
+      e.target.style.background = "black";
+    });
+  });
 });
