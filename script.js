@@ -23,4 +23,5 @@ for (let i = 1; i <= 16 * 16; i++) {
   const gridContainer = document.querySelector(".main-grid");
   const grid = document.createElement("div");
   grid.classList = "grid";
+  gridContainer.appendChild(grid);
 }
