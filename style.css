@@ -16,6 +16,8 @@ body {
   border: 1px solid black;
 }
 .button-div {
+  display: flex;
+  justify-content: center;
 }
 .button {
   font-size: 16px;
