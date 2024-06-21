@@ -49,5 +49,7 @@ gridButton.addEventListener("click", function () {
   const inputValue = getInput();
   console.log(inputValue);
 
-  for (let i = 1; i <= inputValue * inputValue; i++) {}
+  for (let i = 1; i <= inputValue * inputValue; i++) {
+    const gridContainer = document.querySelector(".grid-container");
+  }
 });
